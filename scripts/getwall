@@ -1,0 +1,26 @@
+#!/bin/bash
+
+echo "Search WallHaven"
+read input
+query=$(echo "$input" | sed "s/ /%20/g")
+
+RESPONSE=$(curl -s -G "https://wallhaven.cc/api/v1/search" \
+		-d "q=$query" \
+		-d "purity=100" \
+		-d "apikey=Y05I4bXqAb8BIQoCCDhJi49KoV5sA3iF" \
+	)
+
+
+# Check if the API call was successful
+if [ $? -eq 0 ]; then
+    # Parse the JSON response and extract image links
+    LINKS=$(echo "$RESPONSE" | jq -r '.data[].path')
+
+    for link in $LINKS; do
+        FILESNAME=$(basename "$link")
+        wget -q -P "/home/hubert/walls" "$link"
+        echo "Downloaded: $FILESNAME"
+    done
+else
+    echo "API call failed."
+fi
