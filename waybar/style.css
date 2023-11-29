@@ -58,7 +58,7 @@ button:hover {
 
 #workspaces {
   background-color: @color12;
-  border: 1px solid @color12;
+  border: 1px solid @color6;
   border-radius: 10px;
 }
 

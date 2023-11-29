@@ -1,6 +1,8 @@
 # Set the default editor
 export EDITOR="nvim"
 
+fastfetch
+
 # Set the default text color and prompt
 autoload -U colors
 colors
