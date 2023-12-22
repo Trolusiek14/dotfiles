@@ -52,7 +52,7 @@ button:hover {
 #window{
     background-color: @background;
     border-radius: 10px;
-    border: 1px solid @foreground;
+    border: 1px solid @color2;
     padding: 10px;
     font-size:12px;
     margin-top:10px;
@@ -117,7 +117,7 @@ button:hover {
     border-radius: 10px;
     padding: 0 10px;
     background-color: @background;
-    border: 2px solid @foreground;
+    border: 2px solid @color2;
 }
 
 #window,
