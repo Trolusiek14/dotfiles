@@ -117,7 +117,7 @@ button:hover {
     border-radius: 10px;
     padding: 0 10px;
     background-color: @background;
-    border: 1px solid @foreground;
+    border: 2px solid @foreground;
 }
 
 #window,

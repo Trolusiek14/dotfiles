@@ -6,4 +6,5 @@ wal -i $wall -g
 killall waybar
 waybar & disown
 pywal-discord
+pywalfox update
 mv ~/.cache/wal/colors-hyprland.css ~/.cache/wal/colors-hyprland.conf
