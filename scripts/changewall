@@ -3,3 +3,6 @@ wall=$(find ~/walls -type f | shuf -n 1)
 swww img --transition-type any --transition-duration 1 --transition-fps 60 $wall
 wal -i $wall
 wal -i $wall -g
+killall waybar
+waybar & disown
+mv ~/.cache/wal/colors-hyprland.css ~/.cache/wal/colors-hyprland.conf

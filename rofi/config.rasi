@@ -45,7 +45,6 @@ mainbox {
     padding: 0;
 }
 
-@import "~/.cache/wal/colors-rofi-pywal.rasi"
 
 message {
     border:       2px 0px 0px ;
@@ -152,3 +151,4 @@ textbox-prompt-colon {
     margin:     0px 0.3em 0em 0em ;
     text-color: @normal-foreground;
 }
+@theme "/usr/share/rofi/themes/Monokai.rasi"
