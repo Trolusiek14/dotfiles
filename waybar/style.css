@@ -129,7 +129,7 @@ button:hover {
     margin-left: 0;
 }
 .modules-left{
-	margin-left:5px;
+	margin-left:20px;
 }
 
 /* If workspaces is the rightmost module, omit right margin */
@@ -137,7 +137,7 @@ button:hover {
     margin-right: 0;
 }
 .modules-right{
-	margin-right: 5px;
+	margin-right: 20px;
 }
 
 #clock {
