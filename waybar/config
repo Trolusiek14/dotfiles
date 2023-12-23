@@ -10,8 +10,10 @@
     // Choose the order of the modules
     
     "modules-left": [
+      "clock",
       "hyprland/window",
-      "custom/media"],
+      "custom/media"
+    ],
 
     "modules-center": [
     	"hyprland/workspaces",
@@ -31,7 +33,6 @@
       "hyprland/language", 
       "battery", 
       "battery#bat2", 
-      "clock", 
       "tray"],
     // 
 
