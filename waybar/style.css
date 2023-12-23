@@ -64,6 +64,7 @@ button:hover {
 }
 
 #workspaces button {
+    padding: 0;
     background-color: @background;
     border-radius: 10px;
     color: @foreground;
@@ -116,6 +117,8 @@ button:hover {
     background-color: @background;
     border: 2px solid @color2;
     padding: 0px;
+    padding-left: 3px;
+    padding-right: 3px;
 }
 
 #window,
@@ -297,7 +300,9 @@ label:focus {
 #scratchpad {
     background: rgba(0, 0, 0, 0.2);
 }
-
+#keyboard-state > label {
+    padding: 0 5px;
+}
 #scratchpad.empty {
 	background-color: transparent;
 }
