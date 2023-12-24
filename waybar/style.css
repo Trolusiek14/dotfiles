@@ -115,6 +115,7 @@ button:hover {
     border-top: 10px;
     border-radius: 10px;
     background-color: @background;
+    opacity: 0.8;
     border: 2px solid @color2;
     padding: 0px;
     padding-left: 3px;
