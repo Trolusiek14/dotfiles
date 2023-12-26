@@ -59,7 +59,8 @@
             "(.*) — LibreWolf": "LibreWolf",
             "Alacritty": "Terminal",
             "(.*) - Discord": "Discord"
-        }    
+        },
+	"max-length": 50
      },
     "keyboard-state": {
         "numlock": true,
@@ -201,7 +202,8 @@
     },
     "custom/pipewire": {
       "tooltip": false,
-      "max-length": 6,
+      "max-length": 50,
+      "max-length": 8,
       "exec": "$HOME/.config/waybar/custom/pipewire.sh",
       "on-click": "pavucontrol",
       "on-click-right": "qpwgraph"

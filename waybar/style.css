@@ -262,23 +262,6 @@ label:focus {
     color: #2d3436;
 }
 
-#mpd {
-    background-color: transparent;
-    color: #2a5c45;
-}
-
-#mpd.disconnected {
-    background-color: transparent;
-}
-
-#mpd.stopped {
-    background-color: transparent;
-}
-
-#mpd.paused {
-    background-color: transparent;
-}
-
 #language {
     background: @background;
     color: @foreground;
