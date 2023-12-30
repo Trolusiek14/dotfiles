@@ -12,6 +12,7 @@
     "modules-left": [
       "clock",
       "hyprland/window",
+      "mpd",
       "custom/media"
     ],
 
@@ -20,7 +21,6 @@
     ],
 
     "modules-right": [
-      "mpd", 
       "idle_inhibitor",
       "custom/pipewire",
       "pipewire", 
