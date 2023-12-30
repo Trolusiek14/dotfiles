@@ -151,4 +151,5 @@ textbox-prompt-colon {
     margin:     0px 0.3em 0em 0em ;
     text-color: @normal-foreground;
 }
-@theme "/home/hubert/.cache/wal/colors-rofi-dark.rasi"
+//@theme "/home/hubert/.cache/wal/colors-rofi-dark.rasi"
+@theme "/usr/share/rofi/themes/Monokai.rasi"
