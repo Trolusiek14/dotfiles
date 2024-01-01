@@ -11,8 +11,8 @@
     
     "modules-left": [
       "clock",
-      "hyprland/window",
       "mpd",
+      "hyprland/window",
       "custom/media"
     ],
 
