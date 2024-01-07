@@ -20,7 +20,8 @@ ln ~/.cache/wal/colors-waybar.css ~/.config/waybar/colors.css
 #pywal
 mkdir --parents ~/.config/wal/templates
 ln ../wal/templates/colors-hyprland.css ~/.config/wal/templates/colors-hyprland.css
-ln ../wal/templates/colors-waybar.css ~/.config/wal/templates/colors-waybar.css
+ln ../wal/templates/colors-waybar.conf ~/.config/wal/templates/colors-waybar.conf
+ln ../wal/templates/dunstrc ~/.config/wal/templates/colors-waybar.conf
 #zsh
 mkdir --parents ~/.config/zsh
 ln ../zsh/.zshrc ~/.config/zsh/
@@ -32,3 +33,5 @@ echo ZDOTDIR=$HOME/.config/zsh >> ~/.zshenv
 #rofi
 mkdir --parents ~/.config/rofi
 ln ../rofi/config.rasi ~/.config/rofi/config.rasi
+#dunst
+mkdir --parents ~/.config/dunst
