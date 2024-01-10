@@ -7,8 +7,8 @@ killall waybar
 killall dunst
 waybar & disown
 zellijpywal
-pywal-discord
-pywalfox update
+pywal-discord -p /home/hubert/.config/VencordDesktop/VencordDesktop/themes
+pywalfox update 
 rm ~/.config/dunst/dunstrc
 ln ~/.cache/wal/dunstrc ~/.config/dunst/dunstrc
 dunst & disown
